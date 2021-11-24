@@ -3,7 +3,7 @@ const fs = require('fs')
 const port = 8080
 
 const server = http.createServer(function(req, res) {
-    res.writeHead(598,'Protected 24h')
+    res.writeHead(598,'Protected By NetFlex')
     fs.readFile('index.html', function(error, data){
         if(error){
             res.writeHead(598, 'Protected By NetFlex')
