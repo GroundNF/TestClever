@@ -1,6 +1,6 @@
 const http = require('http')
 const fs = require('fs')
-const port = 8080
+const port = 80
 
 const server = http.createServer(function(req, res) {
     res.writeHead(598,'Protected By NetFlex')
